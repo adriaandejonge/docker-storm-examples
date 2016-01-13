@@ -1,2 +1,7 @@
-# docker-storm-examples
-Examples for Storm
+# Examples for Storm
+
+Run with:
+
+```
+docker run --link zookeeper:zookeeper --link nimbus:nimbus --name examples adejonge/storm-examples
+```
